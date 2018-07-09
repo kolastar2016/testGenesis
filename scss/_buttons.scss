@@ -1,0 +1,298 @@
+//-----------------------------
+// Style whole button on this site
+//-----------------------------
+
+.btn_one {
+  color: white;
+  background-color: $primeOne;
+  border: 2px solid $primeOne;
+  border-radius: 15px;
+  margin-left: 60px;
+  position: relative;
+  font-size: 30px;
+  padding: 10px 40px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: $primeOne;
+  }
+
+  @media (max-width: 480px) {
+    bottom: 10%;
+    position: absolute;
+    margin-left: 50px;
+    padding: 10px 100px
+  }
+}
+
+//--------------
+// Button Two Page
+//---------------
+
+.btn_two {
+  color: white;
+  background-color: $primeTwo;
+  border: 2px solid $primeTwo;
+  border-radius: 15px;
+  margin-left: 95px;
+  position: relative;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: $primeTwo;
+  }
+
+  @media (max-width: 480px) {
+    position: absolute;
+    bottom: 10%;
+    padding: 15px 40px;
+  }
+}
+
+.btn_two_variant {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 26%;
+  top: 15%;
+  font-size: 20px;
+  padding: 10px 70px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primeTwo;
+    border: 1px solid $primeTwo;
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    width: 70%;
+    padding: 15px 100px;
+  }
+}
+
+//----------------
+// Button Three Page
+//------------------
+
+.btn_three_girl {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 26%;
+  top: 15%;
+  font-size: 18px;
+  padding: 10px 40px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primeThree;
+    border: 1px solid $primeThree;
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    width: 70%;
+    padding: 20px 90px;
+    top: 25%;
+  }
+}
+
+.btn_girl {
+  background: url("../../img/bg/girlBlack.jpg") no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+
+  &:hover {
+    background: url("../../img/bg/girlwhite.jpg") no-repeat;
+    background-size: contain;
+    padding-left: 50px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
+}
+
+.btn_three_boy {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 26%;
+  top: 15%;
+  font-size: 18px;
+  padding: 10px 40px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primeThree;
+    border: 1px solid $primeThree;
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    width: 70%;
+    padding: 20px 90px;
+    top: 25%;
+  }
+}
+
+.btn_boy {
+  background: url("../../img/bg/boyBlack.jpg") no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+
+  &:hover {
+    background: url("../../img/bg/boywhite.jpg") no-repeat;
+    background-size: contain;
+    padding-left: 50px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
+}
+
+.btn_three {
+  color: white;
+  background-color: $primeThree;
+  border: 2px solid $primeThree;
+  border-radius: 15px;
+  margin-left: 95px;
+  position: relative;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: $primeThree;
+  }
+
+  @media (max-width: 480px) {
+    position: absolute;
+    bottom: 10%;
+    padding: 15px 40px;
+  }
+}
+
+//-------------------------
+// Button four Page
+//-------------------------
+
+.btn_four {
+  color: gray;
+  background-color: white;
+  border: 2px solid $primeFour;
+  border-radius: 15px;
+  //margin-left: -250px;
+  position: absolute;
+  font-size: 20px;
+  padding: 10px 20px;
+  bottom: -30%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primeFour;
+    color: white;
+  }
+}
+
+
+.btn_four_girl {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 63%;
+  margin-bottom: 10px;
+  position: relative;
+  width: 15%;
+  top: 15%;
+  font-size: 17px;
+  padding: 10px 15px;
+  float: right;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primeFour;
+    border: 1px solid $primeFour;
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    width: 30%;
+    margin-right: 18%;
+    padding: 15px 15px;
+    top: 13%;
+  }
+}
+
+
+.btn_four_boy {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 15%;
+  top: 15%;
+  font-size: 17px;
+  padding: 10px 15px;
+  float: left;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primeFour;
+    border: 1px solid $primeFour;
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    width: 30%;
+    padding: 15px 15px;
+    top: 13%;
+  }
+}
+
+.btn_boy_form {
+  background: url("../../img/bg/boyBlack.jpg") no-repeat;
+  background-size: contain;
+  padding-left: 20px;
+
+  &:hover {
+    background: url("../../img/bg/boywhite.jpg") no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+  }
+}
+
+.btn_girl_form {
+  background: url("../../img/bg/girlBlack.jpg") no-repeat;
+  background-size: contain;
+  padding-left: 20px;
+
+  &:hover {
+    background: url("../../img/bg/girlwhite.jpg") no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,132 @@
+//-----------------------------
+// Style whole text on this site
+//-----------------------------
+
+p {
+  font-family: "Open Sans";
+}
+
+.bg-text {
+  width: 97%;
+  height: 80%;
+  background-color: white;
+  top: 20%;
+  position: relative;
+
+  @media (max-width: 480px) {
+    width: auto;
+    height: 100%;
+    top: 3%;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tx_pink {
+  margin-left: 50px;
+  color: $primeOne;
+  top: 10%;
+  position: relative;
+}
+
+.tx_inform {
+  top: 15%;
+  margin-left: 50px;
+  position: relative;
+}
+
+.tx_btn {
+  top: 40%;
+  margin-left: 50px;
+  position: relative;
+}
+
+.tx_orange {
+  margin-left: 50px;
+  color: $primeTwo;
+  top: 10%;
+  position: relative;
+}
+
+.tx_yellow {
+  margin-left: 50px;
+  color: $primeThree;
+  top: 10%;
+  position: relative;
+}
+
+.tx_blue {
+  margin-left: 50px;
+  color: $primeFour;
+  top: 10%;
+  position: relative;
+
+  @media (max-width: 480px) {
+    font-size: 20px !important;
+  }
+}
+
+.tx_form {
+  top: 14%;
+  margin-left: 50px;
+  position: relative;
+
+  @media (max-width: 480px) {
+    top: 12%;
+  }
+}
+
+.inp_name {
+  padding-top: 5px;
+}
+
+.tx_label_name{
+  position: absolute;
+  top: 9%;
+  width: 105%;
+  height: 15%;
+  color: red;
+  border: 2px solid red;
+}
+
+.tx_label_email{
+  position: absolute;
+  top: 38%;
+  width: 105%;
+  height: 15%;
+  color: red;
+  border: 2px solid red;
+}
+
+.tx_label_pas{
+  position: absolute;
+  top: 67%;
+  width: 105%;
+  height: 14%;
+  color: red;
+  border: 2px solid red;
+}
+
+.tx_use {
+  font-size: 10px;
+  float: right;
+  margin: 5px;
+}
+
+//------------------
+// Font style
+//------------------
+
+.font_25 {
+  font-size: 25px;
+}
+
+//-----------------
+// Transform text
+//-----------------
+
+.upper {
+  text-transform: uppercase;
+}
