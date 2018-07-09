@@ -1,0 +1,248 @@
+//---------------------------
+// Main style
+//---------------------------
+
+@import"../global";
+
+div, p, section, footer, header, aside {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.split_left {
+  height: 100%;
+  width: 68%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    height: 400px;
+    width: auto;
+    position: relative;
+    top: 50px;
+  }
+}
+
+.split_right {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+  }
+}
+
+.left {
+  left: 0;
+  background: url("./../../img/bg/one.jpg") no-repeat;
+  background-size: cover;
+}
+
+.right {
+  right: -28%;
+  background-color: $primeOne;
+
+  @media (max-width: 480px) {
+    right: 0;
+    background-color: $primeOne;
+  }
+}
+
+nav {
+  background: #ffffff;
+  opacity: 0.7;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top: 93%;
+  
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+ul {
+  margin-left: 5%;
+  color: black;
+}
+
+ul>li {
+  display: inline-block;
+  margin: 20px 10px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+//-----------------
+// Page two
+//-----------------
+
+.split_left_two {
+  height: 100%;
+  width: 58%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    height: 450px;
+    width: auto;
+    position: relative;
+    top: 50px;
+  }
+}
+
+.split_right_two {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+  }
+}
+
+.left_two {
+  left: 0;
+  background: url("./../../img/bg/two.jpg") no-repeat;
+  background-size: cover;
+}
+
+.right_two {
+  right: -28%;
+  background-color: $primeTwo;
+
+  @media (max-width: 480px) {
+    right: 0;
+    background-color: $primeTwo;
+  }
+}
+
+.nav_two {
+  position: relative;
+  top: 93%;
+}
+
+.ul_two {
+  margin-left: 25%;
+}
+
+.marg_11 {
+  margin: 7px 11px;
+}
+
+.marg_16 {
+  margin: 7px 16px;
+}
+
+//------------------
+// Page three
+//------------------
+
+.split_left_three {
+  height: 100%;
+  width: 58%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    height: 450px;
+    width: auto;
+    position: relative;
+    top: 50px;
+  }
+}
+
+.split_right_three {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+  }
+}
+
+.left_three {
+  left: 0;
+  background: url("./../../img/bg/three.jpg") no-repeat;
+  background-size: cover;
+}
+
+.right_three {
+  right: -28%;
+  background-color: $primeThree;
+
+  @media (max-width: 480px) {
+    right: 0;
+    background-color: $primeThree;
+  }
+}
+
+//---------------------
+// Page four
+//---------------------
+
+
+.split_left_four {
+  height: 100%;
+  width: 58%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    height: 260px;
+    width: auto;
+    position: relative;
+    top: 50px;
+  }
+}
+
+.split_right_four {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    position: absolute;
+    top: 62%;
+  }
+}
+
+.left_four {
+  left: 0;
+  background: url("./../../img/bg/four.jpg") no-repeat;
+  background-size: cover;
+}
+
+.right_four {
+  right: -28%;
+  background-color: $primeFour;
+
+  @media (max-width: 480px) {
+    right: 0;
+    background-color: $primeFour;
+  }
+}
+

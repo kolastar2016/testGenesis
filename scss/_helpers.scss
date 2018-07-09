@@ -1,0 +1,62 @@
+//-----------------------------
+// Other helpers class on this site
+//-----------------------------
+
+.img_heart {
+  background-color: $primeOne;
+  border-radius: 50px;
+  top: 150px;
+  left: -35px;
+  position: absolute;
+  z-index: 5;
+
+  @media (max-width: 480px) {
+    z-index: 5;
+    top: -30px;
+    left: 30px;
+  }
+}
+
+.top_175 {
+  top: 175px;
+
+  @media (max-width: 480px) {
+    top: -30px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .bg_one {
+    background-color: $primeOne;
+  }
+  .bg_two {
+    background-color: $primeTwo;
+  }
+  .bg_three {
+    background-color: $primeThree;
+  }
+  .bg_four {
+    background-color: $primeFour;
+  }
+}
+
+//----------------------
+// Form style
+//----------------------
+
+form {
+  margin-left: 65px;
+  bottom: 13%;
+  position: absolute;
+}
+
+.inp_size {
+  height: 30px;
+  width: 105%;
+}
+
+.checkb {
+  top: 5px;
+  position: relative;
+}
